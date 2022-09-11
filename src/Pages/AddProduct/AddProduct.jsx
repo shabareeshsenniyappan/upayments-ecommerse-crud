@@ -3,6 +3,7 @@ import { getAllCategories } from "../Home/service";
 import "./addProduct.css";
 import { createProducts } from "./service";
 import { useNavigate } from "react-router-dom";
+import { email } from "../../constants";
 
 function AddProduct() {
   let navigate = useNavigate();
@@ -14,7 +15,7 @@ function AddProduct() {
     category: "",
     description: "",
     avatar: "",
-    developerEmail: process.env.REACT_APP_EMAIL,
+    developerEmail: process.env.REACT_APP_EMAIL || email,
   });
   useEffect(() => {
     //categories api call
