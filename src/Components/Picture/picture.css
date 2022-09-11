@@ -1,0 +1,13 @@
+.picture-container {
+  width: 60%;
+}
+
+.pic-img {
+  max-width: 7vw;
+  max-height: 15vh;
+  min-width: 7vw;
+  min-height: 15vh;
+  padding: 25px 35px;
+  background-color: white;
+  border-radius: 10px;
+}

@@ -1,0 +1,17 @@
+.card-container {
+  width: 70%;
+  cursor: pointer;
+}
+
+.card-title {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.card-price {
+  margin-top: 10px;
+  margin-left: 45px;
+}
+
+.card-container:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,32 @@
+.addProd-container {
+  width: 20%;
+  margin: auto;
+  text-align: center;
+}
+.addProd-input {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+select,
+textarea,
+.add-submit-button {
+  margin: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  background-color: white;
+}
+
+.addProd-right-filter {
+  width: 106%;
+  color: gray;
+}
+
+.add-submit-button {
+  width: 106%;
+  font-size: medium;
+  cursor: pointer;
+}

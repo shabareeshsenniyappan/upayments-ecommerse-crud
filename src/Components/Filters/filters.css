@@ -1,0 +1,21 @@
+.filter-container {
+  margin: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-filter {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  width: 25vw;
+  padding: 10px 8px;
+}
+
+.right-filter {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  width: 18vw;
+  padding: 10px 8px;
+}

@@ -1,0 +1,11 @@
+.header-container{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 100px;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: large;
+    font-style: oblique;
+    font-weight: 500;
+}

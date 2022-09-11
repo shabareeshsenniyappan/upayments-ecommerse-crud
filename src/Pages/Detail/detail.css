@@ -1,0 +1,26 @@
+.detail-container {
+  width: 60%;
+  margin: auto;
+  margin-top: 80px;
+}
+.detail-flex-cont {
+  display: flex;
+}
+.detail-text-cont {
+  margin: 10px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.detail-title {
+  font-size: xx-large;
+  font-weight: 500;
+}
+.detail-desc-title {
+  margin-top: 40px;
+  font-size: x-large;
+}
+.detail-desc {
+  color: grey;
+  font-size: medium;
+}
